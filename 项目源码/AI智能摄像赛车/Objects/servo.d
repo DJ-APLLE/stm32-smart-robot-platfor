@@ -1,5 +1,4 @@
 .\objects\servo.o: MYCODE\Hardware\servo.c
-.\objects\servo.o: MYCODE\Hardware\servo.h
 .\objects\servo.o: .\MYCODE\includes.h
 .\objects\servo.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include\stm32f4xx.h
 .\objects\servo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h

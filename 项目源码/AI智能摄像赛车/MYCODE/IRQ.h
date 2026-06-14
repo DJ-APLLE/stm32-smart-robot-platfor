@@ -1,12 +1,33 @@
+/**
+  ******************************************************************************
+  * @file           : IRQ.h
+  * @brief          : 中断处理头文件
+  * @details        : 声明中断处理函数和相关数据结构
+  * @author         : 
+  * @date           : 
+  ******************************************************************************
+  * @attention
+  *
+  * 此文件包含中断处理相关的声明
+  * 
+  ******************************************************************************
+  */
+
 #ifndef __IRQ_H
 #define __IRQ_H
 
 #include "includes.h"
 
+/**
+  * @brief  USART1中断处理函数声明
+  * @note   用于处理调试串口的数据接收
+  */
+void USART1_IRQHandler(void);
 
-
-//void USART1_IRQHandler(void);
-//void USART3_IRQHandler(void);
-//void process_command(char* cmd);
+/**
+  * @brief  USART3中断处理函数声明
+  * @note   用于处理蓝牙串口的数据接收
+  */
+void USART3_IRQHandler(void);
 
 #endif
